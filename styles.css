@@ -85,10 +85,7 @@ nav a:hover, .text-link:hover { color: var(--gold); }
     linear-gradient(rgba(29, 56, 130, .08) 1px, transparent 1px) 0 0 / 18px 18px,
     radial-gradient(circle at 50% 40%, rgba(71, 61, 167, .32), transparent 44%);
 }
-.banner-display:before {
-  content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .75;
-  background: linear-gradient(90deg, transparent 0 6%, rgba(136, 234, 255, .1) 6.1% 6.3%, transparent 6.4% 100%);
-}
+
 .banner-display img {
   position: relative; z-index: 1; width: min(100%, 1050px); height: auto; display: block;
   image-rendering: pixelated; filter: drop-shadow(0 9px 17px rgba(0, 0, 0, .48));
