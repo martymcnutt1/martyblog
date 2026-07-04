@@ -103,12 +103,12 @@ nav a:hover, .text-link:hover { color: var(--gold); }
 }
 .eyebrow { margin: 0 0 13px; color: var(--blue); font-size: .68rem; letter-spacing: .12em; }
 h1, h2, h3, p { margin-top: 0; }
-h1 {
+h2 {
   font-family: var(--display); font-size: clamp(3.15rem, 6.6vw, 6.7rem); line-height: .98;
   letter-spacing: -.045em; margin-bottom: 28px; font-weight: 600;
   text-shadow: 3px 3px 0 rgba(70, 89, 162, .28);
 }
-h1 span { color: var(--gold); text-shadow: 0 0 18px rgba(255, 198, 73, .22); }
+h2 span { color: var(--gold); text-shadow: 0 0 18px rgba(255, 198, 73, .22); }
 .lede { max-width: 43rem; color: var(--muted); font-size: .95rem; line-height: 2.05; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 31px; }
 .button {
